@@ -1,7 +1,7 @@
 BPF Example in Rust
 ===================
 
-An example repo to show a BPF development environment for Linux Kernel on Mac, with **Rust** programming language.
+An example repo to show a eBPF development environment for Linux Kernel on Mac, with **Rust** programming language.
 
 ## Requirement
 
@@ -50,6 +50,8 @@ sudo cargo bpf load -i eth0 target/bpf/programs/foo/foo.elf
 Happy coding.
 
 ## About Tools and Libs
+
+This environment dependents on [redbpf](https://github.com/ingraind/redbpf) and [cargo-bfp](https://ingraind.org/api/cargo_bpf/).
 
 ```sh
 $ cargo bpf -h
